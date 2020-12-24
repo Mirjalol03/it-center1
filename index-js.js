@@ -21,31 +21,10 @@ function menuToggle(){
     iconsNav.classList.toggle('active');
     let header = document.querySelector('header');
     header.classList.toggle('active');
-    let headerInTxt = document.querySelectorAll('.it-center-txt');
-    headerInTxt.classList.toggle('active')
+    let boshjoy = document.querySelector('#ochiqJoy');
+    boshjoy.classList.toggle('active');
  }
 
-
-
-
- $(document).ready(function(){
-  
-    $("a").on('click', function(event) {
-  
-      if (this.hash !== "") {
-       event.preventDefault();
-  
-       var hash = this.hash;
-        
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-  
-          window.location.hash = hash;
-        });
-      }
-    });
-  });
 
 
 function changeBg() {
@@ -63,3 +42,7 @@ function changeBg() {
 }
 
 setInterval(changeBg, 5000);
+
+
+
+
