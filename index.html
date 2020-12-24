@@ -36,16 +36,16 @@
                         </li>
                       </ul>
                 </div>
-                <button id="more-btn-2" style="background-image: linear-gradient(114deg, #7DBA28 0, #7DBA28 50%, #7DBA28 100%);" type="button" class="btn btn-success" onclick="menuToggle()">More ></button>
+                <button id="more-btn-2" style="background-image: linear-gradient(114deg, #7DBA28 0, #7DBA28 50%, #7DBA28 100%);" type="button" class="btn btn-success" onclick="menuToggle(); navBarIconsAni()"><a href="#section"><span>More</span><i id="icon-in-nav" class="fas fa-angle-double-up"></i></a></button>
                 <div>
                     <a onclick="menuToggle()" id="menu" class="toggle" href="#">
-                        <img src="./menu.png" width="40px" alt="Menu">
+                        <img src="./imgs/menu.png" width="40px" alt="Menu">
                     </a>
                 </div>
               </nav>
         </div>
     </nav>
-        <section>
+        <section id="section">
             <ul>
                 <li><a href="#">Login</a></li>
                 <li><a href="#">Ro'yxatdan o'tish</a></li>
@@ -58,6 +58,13 @@
                 <!-- admin paneli faqat admin uchun -->
             </ul>
         </section>
+
+        <header>
+          
+        </header>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
