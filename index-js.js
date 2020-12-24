@@ -19,6 +19,10 @@ function menuToggle(){
     // const iconInNav = document.querySelector('#more-btn-2');
     let iconsNav = document.querySelector('#icon-in-nav'); 
     iconsNav.classList.toggle('active');
+    let header = document.querySelector('header');
+    header.classList.toggle('active');
+    let headerInTxt = document.querySelectorAll('.it-center-txt');
+    headerInTxt.classList.toggle('active')
  }
 
 

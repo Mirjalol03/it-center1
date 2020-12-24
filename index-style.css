@@ -1,5 +1,16 @@
+/* google fonts linki */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+::selection {
+    color: #8fd32f;
+    /* background: transparent; */
+    background-color: blue;
+  }
+
+
 html {
     scroll-behavior: smooth;
+    overflow: auto;
   }
 
 .containerr {
@@ -117,12 +128,61 @@ header {
     background-image: url(./imgs/rasm1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* salom dunyo */
+    box-sizing: border-box;
+}
+
+header.active{
+    visibility: hidden;
 }
 
 
+#it-center-txt {
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: 10px -10px 2px #000;
+    display: fixed;
+    text-align: center;
+    /* position: relative; */
+    font-weight: 900 !important;
+    font-size: 50px;
+    padding-top: 100px;
+    font-size: 70px;
+}
+#it-center-p-txt {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    /* display: flex; */
+    /* float: right; */
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 10px;
+    font-weight: 800;
+    /* align-items: center; */
+}
+#headerRoyhatdanOtish {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none !important;
+    border: rgba(0, 0, 0, 0.37) 2px solid;
+    padding: 5px 13px;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.561);
+}
+#headerRoyhatdanOtish:hover {
+    background-color: #8fd32f;
+    border: #8fd32f 2px solid;
+    transition: 0.3s;
+}
+.button-cen {
+    text-align: center;
+    padding-top: 90px;
+}
 
-
+/* #it-center-txt {
+    visibility: hidden;
+} */
 
 
 @media (max-width: 680px) {
@@ -141,6 +201,14 @@ header {
     #more-btn-2 i {
         margin: 0;
     }
+    #it-center-txt {
+        padding-top: 90px;
+        font-size: 40px;
+    }
+    #it-center-p-txt {
+        font-size: 25px;
+        padding-top: 70px;
+    }
 }
 
 @media (max-width: 410px) {
@@ -153,3 +221,5 @@ header {
         letter-spacing: 1px;
     }
 }
+
+
